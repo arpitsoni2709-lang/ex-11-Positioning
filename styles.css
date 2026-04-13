@@ -3,6 +3,9 @@ html, h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    padding: 10px;
+}
 nav {
     background-color: blue;
     padding: 10px;
@@ -11,7 +14,7 @@ nav {
 .navlink {
     text-decoration: none;
     list-style-type: none;
-    padding: 0;
+    padding: ;
     display: flex;
     align-items:center;
     align-content: center;
@@ -25,12 +28,13 @@ nav {
 }
 .dropdown {
     background-color:   blue;
-;
     list-style-type: none;
     top: 100%;
     left: 0;
     display: none;
     padding: 10px 30px 10px 10px;
+    position: absolute;
+    color: rgb(200, 254, 252);
 }
 .site-nav {
     text-decoration: none;
@@ -42,13 +46,13 @@ nav {
     background-color: rgb(246, 165, 73);
       display: inline-block;
   
- border-radius: 8px;
-  font-family: monospace;
+ border-radius: 4px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
 }
 .wrapper {
     max-width: 600px;
-    margin: 0;
+    margin: auto;
 }
 
 h1 {
