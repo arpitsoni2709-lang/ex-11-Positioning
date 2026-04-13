@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <Title>Exercise 11: Positioning</Title>
+    </head>
+
+    <body>
+        <header>
+        <h1 class="wrapper">CSS Positioning: Drop Down Menu</h1>
+        <p><span class="keyword">position; relative</span>and
+            <span class="keyword"> positin: absolute</span>
+        </p>
+    <nav>
+        <ul class="navlink">
+            <li>
+                <a href="" class="site-nav">Home</a>
+            </li>
+            <li>
+                <a href="" class="site-nav">About</a>
+            </li>
+            <li class="dropdown-trigger">
+                <a href="" class="site-nav">Products</a>
+                <ul class="dropdown">
+                    <li>Widgets</li>
+                    <li>Gadgets</li>
+                    <li>Gizmos</li>
+                </ul>
+            </li>
+            <li>
+                <a href="" class="site-nav">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main class="wrapper"><p>The parent list item needs <span class="keyword">position: relative</span> so that the child submenu can be positioned with <span class="keyword">position:absolute</span> relative to it — not relative to the entire page.</p>
+            <p>The submenu (a nested <span class="keyword">ul</span> inside one of the <span class="keyword">li</span> elements) is hidden by default with <span class="keyword">display: none.</span> 
+            When the user hovers over the parent list item, the submenu is shown with <span class="keyword">display: block</span>.</p>
+            <p>The key concept: <span class="keyword">position: absolute</span> places an element relative to its nearest ancestor that has <span class="keyword">position: relative</span>. 
+            Without that ancestor, it positions relative to the page — which is almost never what you want.</p></main>
+
+    </body>
+</html>
+        
